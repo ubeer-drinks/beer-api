@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "sourceMap": false,
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        "outDir": "build",
+        "typeRoots": ["./node_modules/@types", "./typings"],
+    },
+    "include": ["src/**/*"]
+}

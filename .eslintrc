@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base",
+        "node",
+        "prettier",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "tsconfig.json"
+    },
+    "plugins": ["node", "prettier", "@typescript-eslint"],
+    "settings": {
+        "import/resolver": {
+            "node": {"extensions": [".ts"]}
+        }
+    },
+    "rules": {
+        "arrow-body-style": "off",
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "import/prefer-default-export": "off",
+        "prettier/prettier": ["error"]
+    },
+    "ignorePatterns": ["test/**/*", "jest.config.js", "node_modules/**/*"]
+}
