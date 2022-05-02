@@ -23,5 +23,5 @@
         "import/prefer-default-export": "off",
         "prettier/prettier": ["error"]
     },
-    "ignorePatterns": ["test/**/*", "jest.config.js", "node_modules/**/*"]
+    "ignorePatterns": ["jest.config.js", "node_modules/**/*"]
 }

@@ -6,7 +6,6 @@ const server: Express = express();
 
 server.set('port', parseInt(process.env.PORT, 10) || 3000);
 
-// Set payload limit size to 500mb (~500 000 remittances)
 server.use(express.json({limit: '500mb'}));
 server.use(express.urlencoded({extended: true}));
 

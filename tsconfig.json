@@ -11,5 +11,5 @@
         "outDir": "build",
         "typeRoots": ["./node_modules/@types", "./typings"],
     },
-    "include": ["src/**/*"]
+    "include": ["src/**/*", "test/**/*"]
 }
